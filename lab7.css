@@ -1,1 +1,23 @@
+#content{background-color: blue;
+ background-image: url("7.1.png");
+ background-position: center top;
+ background-attachment: fixed;
+ background-repeat: no-repeat;}
 
+#content2{background-image: url("atom.jng");
+ background-position:  top;
+ /*background-attachment: fixed;*/
+ background-repeat: no-repeat;}
+
+#content3{background-image: url("atom2.png");
+ background-position: top;/*background-attachment: fixed;*/
+ background-repeat: no-repeat;}
+
+#content4{background-image: url("foto333.jpeg");
+ background-position: right;/*background-attachment: fixed;*/
+ background-repeat: no-repeat;}
+
+#iz{background: brown url(atom33.png)repeat-y fixed bottom right; 
+background-position: left;}
+
+.text{text-align: center;font-family: Comic Sans MS;font-weight: bold;font-size: 18px;}

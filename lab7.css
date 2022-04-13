@@ -17,7 +17,7 @@
  background-position: right;/*background-attachment: fixed;*/
  background-repeat: no-repeat;}
 
-#iz{background: brown url(atom33.png)repeat-y fixed bottom right; 
+#iz{background: red url(atom33.png)repeat-y fixed right top; 
 background-position: left;}
 
 .text{text-align: center;font-family: Comic Sans MS;font-weight: bold;font-size: 18px;}

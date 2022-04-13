@@ -17,5 +17,5 @@
  background-position: right;/*background-attachment: fixed;*/
  background-repeat: no-repeat;}
 
-#iz{background: red url(atom33.png)repeat-y fixed bottom right; 
+#iz{background: red url(atom33.png)repeat-y fixed right top; 
 background-position: left;}

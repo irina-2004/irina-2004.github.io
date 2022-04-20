@@ -55,12 +55,14 @@
 </form>
   </div>
   <div>
-  <form enctype="multipart/form-data" method="post">
-  <p><input type="file" name="fl1"></p>
-  <p><input type="button" name="bt1" value="Кнопка"</p>
-  <p><input type="reset" name="rs1" value="Очистити"</p>
-  <p><input type="submit" name="sb1" value="Відправити"></p>
-  </form> </div>
+ <form action="/examples/php-scripts/coffee.php" method="post">
+<fieldset> <legend><b>Яку каву ви полюбляєте?</b></legend>
+<label><input type="radio" name="coffee" value="without"> просто каву (без всього)</label>
+<label><input type="radio" name="coffee" value="milk"> з молоком</label>
+<p><input type="text" name="coffee_value" placeholder="Свій варіант"></p>
+</fieldset>
+<p><input type="reset"> <input type="submit" value="Відправити відповідь"></p>
+</form></div>
   
  <div id="footer"> 
    Блок футер

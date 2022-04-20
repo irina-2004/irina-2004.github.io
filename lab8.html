@@ -15,14 +15,40 @@
   <label for="name">Name:</label> 
  <input type="text" id="name" name="user_name" /> 
  <label for="mail">E-mail:</label> <input type="email" id="mail" name="user_email" />
-  
-  <div>
     <select>
   <option value="1">значення 1</option>
   <option value="2">значення 2</option>
   <option value="3">значення 3</option>
 </select>
-    </div>
+  <form action="/login" method="post">  
+  <input type="text" name="username" placeholder="Enter your name" 
+  maxlength="25" size="40" >
+</form>
+  </div>
+  <meta charset="utf-8">
+  <title>Поле с паролем</title>
+  <style>
+   .textField, .passField {
+    width: 100%; /* Ширина поля */
+    padding: 10px; /* Поля */
+    box-sizing: border-box; /* Алгоритм расчёта ширины */
+    box-shadow: inset 0 1px 5px rgba(0,0,0,0.2); /* Тень внутри */
+    border: 1px solid #ccc; /* Параметры рамки */
+    color: #ff6d37; /* Цвет текста */
+    background: url(/example/image/user.png) no-repeat 5px 50%; /* Картинка пользователя */
+    padding-left: 30px; /* Расстояние от левого края */
+   }
+   .passField {
+    background: url(/example/image/lock.png) no-repeat 5px 50%; /* Картинка для поля с паролем */
+   }
+  </style>
+   <form action="handler.php">
+   <p><input maxlength="25" name="login" class="textField"></p>
+   <p><input type="password" maxlength="25" name="password" class="passField"></p>
+   <p><input type="submit" value="Войти"></p>
+  </form>
+    
+  
  <div id="footer"> 
    Блок футер
  </div> 

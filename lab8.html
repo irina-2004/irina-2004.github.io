@@ -59,18 +59,7 @@
   <form>
    <input type="button" name="bt1" value="кнопка">
   </form>
-   function clearAllFormInputs() {
-  let form = document.getElementById('form');
-  let inputs = form.getElementsByTagName('input');
-  for (let input of inputs)
-    input.value = '';
-}
-
-let button = document.getElementById('button');
-button.addEventListener('click', clearAllFormInputs);
 <form id="form">
-  <input value="текст1">
-  <input value="текст2">
   <button id="button">Очистити</button>
 </form>
   <form action="href="default.htm">

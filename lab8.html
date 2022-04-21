@@ -4,7 +4,7 @@
  <title>Гіпертекстовий документ</title> <meta charset="utf-8">
   <meta charset="utf-8">
 <link rel="stylesheet"
-href="style/style.css">
+href="style.css">
  </head> 
    <body>
     <form method="get" action="" enctype="multipart/form/data">
@@ -78,13 +78,12 @@ href="style/style.css">
   <br>
 <table border="1">
   <tr>
-  
-  
-  <form action="/my-handling-form-page" method="post">
+<form action="/my-handling-form-page" method="post">
  <div><p> <label for="name">Ваше прізвище, ім'я, по батькові:</label> 
  <input type="text" id="ПІБ" name="username" placeholder="введіть ПІБ " maxlength="30" size="40" </p>
   <p>  <label for="name">Кількість кімнат у
-клієнта:</label> <select>
+клієнта:</label>
+  <select>
   <option value="1">1 кімната</option>
   <option value="2">2 кімнати</option>
   <option value="3">3 кімнати</option>
@@ -94,50 +93,69 @@ href="style/style.css">
   <p> <label for="name">Бажані міста України:</label></p>
   <br>
   <label>
-    <input type="checkbox" name="languages" value="HTML">
+    <br>
+<tr>
+<td><input type="checkbox" name="languages" value="HTML">
   Чернівці
-  </label>
+  </label></td></tr><br> 
   <br>
   <label>
-    <input type="checkbox" name="languages" value="CSS">
+    <br>
+<tr>
+<td><input type="checkbox" name="languages" value="CSS">
    Івано-Франківськ
-  </label>
+  </label></td></tr><br> 
    <br>
   <label>
-    <input type="checkbox" name="languages" value="HTML">
+    <br>
+<tr>
+<td><input type="checkbox" name="languages" value="HTML">
   Кам'янець-Подільський
-  </label>
+  </label></td></tr><br> 
   <br>
   <label>
-    <input type="checkbox" name="languages" value="CSS">
+    <br>
+<tr>
+<td><input type="checkbox" name="languages" value="CSS">
     Луцьк
-  </label>
+  </label></td></tr><br> 
   <br>
   <label>
-    <input type="checkbox" name="languages" value="JS">
+    <br>
+<tr>
+   <td> <input type="checkbox" name="languages" value="JS">
      Яремче
-  </label>
+  </label></td></tr><br> 
    <p> <label for="name">Бажана кількість
 кімнат:</label></p>
-  <p> <input type="radio" id="contactChoice1"
+ <br>
+<tr>
+   <td>  <input type="radio" id="contactChoice1"
      name="contact" value="1 кімната">
-    <label for="contactChoice1">1 кімната</label>
+    <label for="contactChoice1">1 кімната</label></td></tr><br> 
 
-    <input type="radio" id="contactChoice2"
+    <br>
+<tr>
+   <td> <input type="radio" id="contactChoice2"
      name="contact" value="2 кімнати">
-    <label for="contactChoice2">2 кімнати</label>
+    <label for="contactChoice2">2 кімнати</label></td></tr><br> 
 
-    <input type="radio" id="contactChoice3"
+    <br>
+<tr>
+   <td> <input type="radio" id="contactChoice3"
      name="contact" value="3 кімнати">
-    <label for="contactChoice3">3 кімнати</label>
+    <label for="contactChoice3">3 кімнати</label></td></tr><br> 
   
-  <input type="radio" id="contactChoice2"
+  <br>
+<tr>
+   <td> <input type="radio" id="contactChoice2"
      name="contact" value="4 кімнати">
-    <label for="contactChoice2">4 кімнати</label>
-
-    <input type="radio" id="contactChoice3"
+    <label for="contactChoice2">4 кімнати</label></td></tr><br> 
+  <br>
+<tr>
+   <td> <input type="radio" id="contactChoice3"
      name="contact" value="5 кімнат">
-    <label for="contactChoice3">5 кімнат</label> </p>
+    <label for="contactChoice3">5 кімнат</label> </p></td></tr><br> 
   
  <form action="/my-handling-form-page" method="post">
  <div> <label for="msg"><p align="left" font-size:20px">Додаткові умови:<textarea name="area1" placeholder="Введіть

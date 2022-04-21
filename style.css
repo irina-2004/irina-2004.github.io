@@ -1,0 +1,25 @@
+element.style {
+}
+user agent stylesheet
+.html-resource-link {
+    color: -internal-light-dark(rgb(0, 0, 238), rgb(159, 180, 214));
+}
+user agent stylesheet
+.html-attribute-value {
+    color: -internal-light-dark(rgb(26, 26, 166), rgb(242, 151, 102));
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+user agent stylesheet
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    white-space: pre;
+    font-size: initial;
+    font-family: monospace;
+    tab-size: 4;
+    border-spacing: 0px;

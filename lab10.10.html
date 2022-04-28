@@ -33,16 +33,15 @@ list-style-image: none;
 <ul>
 <li><button type="button1"  onclick="background_color()">Змінити колір фону</button></li><br>
 <li><button type="button2" onclick="border_left_color()">Змінити колір лівого контуру</button></li><br>
-<li><button type="button3" onclick="border-top-color()">Змінити колір верхнього контуру</button></li><br>
-<li><button type="button4" onclick="font()">Стиль шрифта</button></li><br>
+<li><button type="button4" onclick="font_family()">Стиль шрифта</button></li><br>
 <li><button type="button5" onclick="list-style-image()">Змінити маркер</button></li><br>
-<li><button type="button6" onclick="padding-bottom()">Змінити значення поля від нижнього краю</button></li>
+<li><button type="button6" onclick="padding-bottom()">Змінити значення поля від н краю</button></li>
 </ul><br><br>
 <button type="button" onclick="my_new()">Оновити</button>
 
 
 <script>
-    document.body.style.backgroundcolor ="#FF1493";
+    document.body.style.backgroundimage = "url('101.jpg')";
 
 function $() { 
 var elements = new Array(); 
@@ -63,13 +62,10 @@ function background_color() {
 function border_left_color() {
  $('MyDiv').style.borderLeftColor = "#f1ff09";
 }
-function top_Style() {
- $('MyDiv').style.borderTopStyle = "double";
-}
 function font_family() {
  $('MyDiv').style.fontFamily = "Arial, Verdana, sans-serif";
 }
-function list_style_position() {
+function list-style-image() {
  $('MyDiv').style.listStylePosition = "inside";
 }
 function padding_left() {
@@ -77,7 +73,7 @@ function padding_left() {
 }
 
 function my_new() {
-document.body.style.backgroundImage = "url('indiv10.jpg')";
+document.body.style.backgroundImage = "url('101.jpg')";
 $('MyDiv').style.borderLeftColor = "";
 $('MyDiv').style.borderTopStyle = "";
 $('MyDiv').style.fontFamily = "";
